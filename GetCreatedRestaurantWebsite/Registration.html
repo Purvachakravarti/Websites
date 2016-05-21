@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Registration</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="menu.css">
+    </head>
+    <body>       
+        <ul class="topnav">
+            <li><a class="active" href="index.html">Tour</a></li>
+            <li><a href="ShowCase.html">Showcase</a></li>
+            <li><a href="Demo.html">Demo</a></li>
+            <li><a href="FreeConsultation.html">Free Consultation</a></li>
+            <li><a href="index.html">Login </a></li>
+            <li class="icon"><a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a></li>
+        </ul>
+        <script>
+        function myFunction() 
+        {
+            document.getElementsByClassName("topnav")[0].classList.toggle("responsive");
+        }
+        </script>
+
+        <form> 
+            <div class="one two">
+            <table>
+                <tr>
+                    <td>
+                        First Name
+                    </td>
+                    <td>     
+                        <input type = "text" name = "fname"><br><br>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                       Last Name
+                    </td>
+                    <td> 
+                        <input type = "text" name = "lname"><br><br> 
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        Email
+                    </td>
+                    <td> <input type = "email" name = "email"><br><br>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        Password
+                    <td>   <input type=" password" name = "pass" ><br><br>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        Confirm Password
+                    </td>
+                    <td> 
+                        <input type = "password" name = "pass"><br><br>
+                    </td>
+                 </tr>
+           
+                <tr>
+                    <td>
+                        <input type = "submit" value = "submit"><br>
+                    </td>
+                 </tr>
+           </table>
+           </div>
+        </form>
+    </body>
+</html>

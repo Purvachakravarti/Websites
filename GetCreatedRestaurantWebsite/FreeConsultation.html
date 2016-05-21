@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title> Consult Us</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+           <link rel="stylesheet" type="text/css" href="menu.css">
+    </head>
+    <body>
+        <ul class="topnav">
+            <li><a class="active" href="index.html">Tour</a></li>
+            <li><a href="ShowCase.html">Showcase</a></li>
+            <li><a href="Demo.html">Demo</a></li>
+            <li><a href="FreeConsultation.html">Free Consultation</a></li>
+            <li><a href="index.html">Login </a></li>
+            <li class="icon"><a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a></li>
+        </ul>
+        <script>
+        function myFunction() 
+        {
+            document.getElementsByClassName("topnav")[0].classList.toggle("responsive");
+
+        }
+        </script>
+        
+        
+        <h1 class="one" > Request your Free Consultation to Us</h1>
+        <p class="one">Lets discuss about what you want and what we can do for you</p>
+        <hr>
+        <form action = "" method="POST">
+        <div class="one">
+            <table>
+                <tr>
+                  <td>What do you do?&nbsp;&nbsp;</td>
+                  <td><select>
+                            <option value="select">Please select me!</option>
+                            <option value="new">I am going to open a new restaurant</option>
+                            <option value="already">I already have a restaurant</option>
+                            <option value="foodtruck">I have a food truck</option>
+                            <option value="Others">Others</option>
+                      </select></td>
+                 </tr>
+                 
+                 <tr>
+                     <td>Where are you located?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                     <td><textarea rows="4" cols="50"></textarea></td>
+                 </tr>
+                 
+                 <tr>
+                     <td>I'd like to</td>
+                     <td>
+                         <input type ='checkbox' name ='easy'>Make it easy for new customers to find us.<br>
+                         <input type ='checkbox' name ='promotion'>Promote our upcoming events, live music, etc.<br>
+                         <input type = 'checkbox' name = 'management'>Easily manage my menu & specials.<br>
+                         <input type = 'checkbox' name = 'reservation'>Take reservations through my website.<br>
+                         <input type = 'checkbox' name = 'else'>Something else.<br>
+                     </td>
+                 </tr>
+                 
+                 <tr>
+                     <td>Are you interested in Online Ordering?</td>
+                     <td>
+                         <select>
+                            <option value="select">Please select me!</option>
+                            <option value="needed">Online ordering needed</option>
+                            <option value="notneeded">Online ordering not needed</option>
+                            <option value="maybelater">Online ordering not needed not but may be later</option>
+                      </select></td>
+                     </td>
+                 </tr>
+                 
+                 <tr>  
+                    <td>Any initial questions or comments?</td>
+                    <td><textarea rows="4" cols="50"></textarea></td>                 
+                 </tr>
+                 
+                 <tr>
+                     <td>Does your restaurant has an existing website?</td>
+                     <td><input type ="radio" name = "website" value = "yes" checked>Yes
+                     <input type = "radio" name = "website" vanue = "no">No</td>
+                 </tr>
+                 
+                 <tr>
+                    <td>First Name</td>
+                    <td><input type="text" name = "fname" required>*</td>
+                 </tr>
+                 
+                 <tr>
+                  <td>Last Name</td>
+                  <td><input type="text" name = "lname" required>*</td>
+                 </tr>
+                 
+                 <tr>
+                  <td>Email Id</td>
+                  <td><input type="email" name = "mail" required>*</td>
+                 </tr>
+                 
+                 <tr>
+                  <td>Phone Number</td>
+                  <td><input type="text" name = "pno" required>*</td><br>
+                 </tr>
+                 
+                 <tr>
+                   <td></td>
+                   <td><input type = "submit" value = "Submit"></td> 
+                 </tr>
+            </table>
+         </div>  
+      </form>
+    </body>
+</html>
